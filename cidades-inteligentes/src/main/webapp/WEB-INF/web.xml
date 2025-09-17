@@ -8,6 +8,14 @@
         <servlet-name>IMCServlet</servlet-name>
         <url-pattern>/IMCServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>TreinoServlet</servlet-name>
+        <servlet-class>TreinoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TreinoServlet</servlet-name>
+        <url-pattern>/TreinoServlet</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
